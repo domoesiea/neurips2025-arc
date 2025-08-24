@@ -6,6 +6,7 @@
 Ce projet participe à la compétition **NeurIPS 2025 - Google Code Golf Championship** (ARC-AGI challenge).  
 L’objectif est de produire une suite de programmes Python minimalistes capables de résoudre les 400 tâches du benchmark ARC-AGI.
 
+
 ## 📂 Structure du projet
 neurips2025/
 │── data/ # Datasets (task001.json, …)
@@ -33,11 +34,14 @@ Modifier
 python3 -m venv venv
 source venv/bin/activate   # sous Linux/Mac
 venv\Scripts\activate      # sous Windows
+
+
 3. Installer les dépendances
 bash
 Copier
 Modifier
 pip install -r requirements.txt
+
 ▶️ Utilisation
 Lancer un script de solution
 bash
@@ -49,6 +53,8 @@ bash
 Copier
 Modifier
 python tests/run_all.py
+
+
 📊 Résultats attendus
 ✅ Chaque programme doit résoudre correctement les exemples train et test.
 
@@ -56,24 +62,3 @@ python tests/run_all.py
 
 ✅ Les résultats sont validés sur Kaggle (NeurIPS 2025).
 
-🤝 Collaboration
-Forkez le projet 🍴
-
-Créez une nouvelle branche feature/...
-
-Faites vos modifications
-
-Ouvrez une Pull Request
-
-🧑‍💻 Auteurs
-Ton Nom
-
-yaml
-Copier
-Modifier
-
----
-
-👉 Avec ça, ton dépôt GitHub aura l’air **pro et structuré**, comme ceux des meilleurs data scientists.  
-
-Veux-tu que je prépare aussi un **`requirements.txt` minimal** (avec les libs que 
