@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.egg
+*.log
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# --- Environnement virtuel ---
+venv/
+.env/
+.venv/
+
+# --- IDE / OS files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Kaggle / Data ---
+*.zip
+*.tar.gz
+*.tar
+*.7z
+
+# --- Checkpoints / outputs ---
+/outputs/
+/results/
+/tmp/
+
+# --- Tests cache ---
+.pytest_cache/
+.coverage
+htmlcov/
