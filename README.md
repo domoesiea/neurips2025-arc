@@ -19,6 +19,19 @@ L’objectif est de produire une suite de programmes Python minimalistes capable
  ┗ 📄 README.md          → Documentation principale
 
 
+## 📂 Structure du projet
+
+```text
+📂 neurips2025-arc
+ ┣ 📂 data         → Datasets (task001.json, …)
+ ┣ 📂 solutions    → Scripts Python (task001.py, …)
+ ┣ 📂 utils        → Fonctions utilitaires (helpers, primitives…)
+ ┣ 📂 notebooks    → Analyses exploratoires (Jupyter)
+ ┣ 📂 tests        → Validation & évaluation
+ ┣ 📂 outputs      → Résultats, logs ou checkpoints
+ ┣ 📄 requirements.txt   → Dépendances du projet
+ ┗ 📄 README.md          → Documentation principale
+
 
 bash
 Copier
