@@ -8,14 +8,17 @@ L’objectif est de produire une suite de programmes Python minimalistes capable
 
 
 ## 📂 Structure du projet
-neurips2025/
-│── data/ # Datasets (task001.json, …)
-│── solutions/ # Scripts Python (task001.py, …)
-│── utils/ # Fonctions utilitaires
-│── notebooks/ # Analyses exploratoires Jupyter
-│── tests/ # Scripts de test et validation
-│── README.md # Documentation principale
-│── requirements.txt # Dépendances du projet
+📂 neurips2025-arc
+ ┣ 📂 data         → Datasets (task001.json, …)
+ ┣ 📂 solutions    → Scripts Python (task001.py, …)
+ ┣ 📂 utils        → Fonctions utilitaires (helpers, primitives…)
+ ┣ 📂 notebooks    → Analyses exploratoires (Jupyter)
+ ┣ 📂 tests        → Validation & évaluation
+ ┣ 📂 outputs      → Résultats, logs ou checkpoints
+ ┣ 📄 requirements.txt   → Dépendances du projet
+ ┗ 📄 README.md          → Documentation principale
+
+
 
 bash
 Copier
