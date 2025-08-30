@@ -93,3 +93,6 @@ cd neurips2025-arc
 - **Issues** → suivi des bugs/features  
 - **Branches** → `main`, `dev`, `feature/taskXXX`  
 - **Pull requests** → discussion avant merge 
+
+## 📄 Licence
+Apache 2.0
