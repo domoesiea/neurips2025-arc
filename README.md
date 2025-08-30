@@ -1,11 +1,11 @@
 # neurips2025-arc
 
-# 🧩 NeurIPS 2025 - Google Code Golf Championship
+# 🏆 NeurIPS 2025 - Google Code Golf Championship (ARC-AGI Challenge)
 
 ## 🚀 Description
-Ce projet participe à la compétition **NeurIPS 2025 - Google Code Golf Championship** (ARC-AGI challenge).  
-L’objectif est de produire une suite de programmes Python minimalistes capables de résoudre les 400 tâches du benchmark ARC-AGI.
-
+e projet participe à la compétition **NeurIPS 2025 - Google Code Golf Championship**, dont l’objectif est de résoudre les **400 tâches ARC-AGI**.  
+Chaque tâche doit être résolue par un **programme Python minimaliste** (Code Golf).  
+Nous combinons **méthodes symboliques (ILP)** et **métaheuristiques (GA, heuristiques)** pour apprendre des règles générales et atteindre des solutions robustes et optimisées.
 
 ## 📂 Structure du projet
 
@@ -26,15 +26,17 @@ L’objectif est de produire une suite de programmes Python minimalistes capable
 
 ### 1. Cloner le projet
 ```bash
-git clone https://github.com/<TON-USER>/<TON-REPO>.git
-cd <TON-REPO>
+git clone https://github.com/domoesiea/neurips2025-arc.git
+cd neurips2025-arc
+
 
 ```
 ### 2. Créer un environnement virtuel
 ``` bash
 python3 -m venv venv
-source venv/bin/activate   # sous Linux/Mac
-venv\Scripts\activate      # sous Windows
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+
 
 ```
 ### 3. Installer les dépendances
@@ -52,11 +54,42 @@ python solutions/task001.py
 python tests/run_all.py
 ```
 
+### 🚀 Setup rapide
+Cloner le projet et exécuter :
+
+```bash
+git clone https://github.com/domoesiea/neurips2025-arc.git
+cd neurips2025-arc
+./setup.sh
+```
+
 ## 📊 Résultats attendus
 
-✅ Chaque programme doit résoudre correctement les exemples train et test.
+- ✅ Chaque programme doit résoudre correctement les exemples train et test.
 
-✅ Les solutions doivent être les plus courtes possible (Code Golf).
+- ✅ Les solutions doivent être les plus courtes possible (Code Golf).
 
-✅ Les résultats sont validés sur Kaggle (NeurIPS 2025).
+- ✅ Les résultats sont validés sur Kaggle (NeurIPS 2025).
 
+
+## 🔬 Roadmap
+
+- ✅ Le Setup du projet et environnement virtuel
+
+- ✅ Le Solution baseline pour task001
+
+- ⬜ LImplémentation GA pour la recherche de règles
+
+- ⬜ Intégration ILP (Popper) pour l’induction symbolique
+
+- ⬜ Runner générique pour tester les 400 tâches
+
+- ⬜ Optimisation code golf
+
+
+
+## 👥 Collaboration
+
+- **Issues** → suivi des bugs/features  
+- **Branches** → `main`, `dev`, `feature/taskXXX`  
+- **Pull requests** → discussion avant merge 
