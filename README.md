@@ -1,8 +1,8 @@
 # neurips2025-arc
 
-# 🏆 NeurIPS 2025 - Google Code Golf Championship (ARC-AGI Challenge)
+# NeurIPS 2025 - Google Code Golf Championship (ARC-AGI Challenge)
 
-## 🚀 Description
+## Description
 e projet participe à la compétition **NeurIPS 2025 - Google Code Golf Championship**, dont l’objectif est de résoudre les **400 tâches ARC-AGI**.  
 Chaque tâche doit être résolue par un **programme Python minimaliste** (Code Golf).  
 Nous combinons **méthodes symboliques (ILP)** et **métaheuristiques (GA, heuristiques)** pour apprendre des règles générales et atteindre des solutions robustes et optimisées.
@@ -22,7 +22,7 @@ Nous combinons **méthodes symboliques (ILP)** et **métaheuristiques (GA, heuri
 
 ``` 
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Cloner le projet
 ```bash
@@ -44,7 +44,7 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
-## ▶️ Utilisation
+##  Utilisation
 #### Lancer un script de solution
 ```bash
 python solutions/task001.py
@@ -54,7 +54,7 @@ python solutions/task001.py
 python tests/run_all.py
 ```
 
-### 🚀 Setup rapide
+###  Setup rapide
 Cloner le projet et exécuter :
 
 ```bash
@@ -63,36 +63,36 @@ cd neurips2025-arc
 ./setup.sh
 ```
 
-## 📊 Résultats attendus
+##  Résultats attendus
 
-- ✅ Chaque programme doit résoudre correctement les exemples train et test.
+-  Chaque programme doit résoudre correctement les exemples train et test.
 
-- ✅ Les solutions doivent être les plus courtes possible (Code Golf).
+-  Les solutions doivent être les plus courtes possible (Code Golf).
 
-- ✅ Les résultats sont validés sur Kaggle (NeurIPS 2025).
-
-
-## 🔬 Roadmap
-
-- ✅ Le Setup du projet et environnement virtuel
-
-- ✅ Le Solution baseline pour task001
-
-- ⬜ LImplémentation GA pour la recherche de règles
-
-- ⬜ Intégration ILP (Popper) pour l’induction symbolique
-
-- ⬜ Runner générique pour tester les 400 tâches
-
-- ⬜ Optimisation code golf
+-  Les résultats sont validés sur Kaggle (NeurIPS 2025).
 
 
+##  Roadmap
 
-## 👥 Collaboration
+-  Le Setup du projet et environnement virtuel
+
+-  Le Solution baseline pour task001
+
+-  LImplémentation GA pour la recherche de règles
+
+-  Intégration ILP (Popper) pour l’induction symbolique
+
+-  Runner générique pour tester les 400 tâches
+
+-  Optimisation code golf
+
+
+
+##  Collaboration
 
 - **Issues** → suivi des bugs/features  
 - **Branches** → `main`, `dev`, `feature/taskXXX`  
 - **Pull requests** → discussion avant merge 
 
-## 📄 Licence
-Apache 2.0
+##  Licence
+
